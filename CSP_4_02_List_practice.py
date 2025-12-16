@@ -52,7 +52,7 @@ def removeLowest(li: list) -> None:
         if li[i] < li[lowest_index]:
             lowest_index = i
 
-        li.pop(lowest_index)
+    li.pop(lowest_index)
     """
     Given a list of numbers remove the lowest element from the list. You may assume the list is at least 1 element long.
     If there are multiple of the lowest number you just need to remove 1.
